@@ -1,0 +1,7 @@
+D:\Учёба\7 семестр\EPAM\Lab_1_(OOP)\Lab_1_(OOP)\bin\Debug\Lab_1_(OOP).exe.config
+D:\Учёба\7 семестр\EPAM\Lab_1_(OOP)\Lab_1_(OOP)\bin\Debug\Lab_1_(OOP).exe
+D:\Учёба\7 семестр\EPAM\Lab_1_(OOP)\Lab_1_(OOP)\bin\Debug\Lab_1_(OOP).pdb
+D:\Учёба\7 семестр\EPAM\Lab_1_(OOP)\Lab_1_(OOP)\obj\Debug\Lab_1_(OOP).csprojResolveAssemblyReference.cache
+D:\Учёба\7 семестр\EPAM\Lab_1_(OOP)\Lab_1_(OOP)\obj\Debug\Lab_1_(OOP).csproj.CoreCompileInputs.cache
+D:\Учёба\7 семестр\EPAM\Lab_1_(OOP)\Lab_1_(OOP)\obj\Debug\Lab_1_(OOP).exe
+D:\Учёба\7 семестр\EPAM\Lab_1_(OOP)\Lab_1_(OOP)\obj\Debug\Lab_1_(OOP).pdb
