@@ -12,7 +12,7 @@ namespace Lab_4__UnitTest_
         [AssemblyInitialize]
         public static void SetUpWeb(TestContext context)
         {
-            driver = new ChromeDriver(@"C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug");
+            driver = new ChromeDriver(@"D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug");
             driver.Manage().Window.Maximize();
         }
         [TestMethod]

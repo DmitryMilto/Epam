@@ -16,3 +16,21 @@ C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab_4_(UnitTest)\Lab_4_(Uni
 C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab_4_(UnitTest)\Lab_4_(UnitTest)\obj\Debug\Lab_4_(UnitTest).csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab_4_(UnitTest)\Lab_4_(UnitTest)\obj\Debug\Lab_4_(UnitTest).dll
 C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab_4_(UnitTest)\Lab_4_(UnitTest)\obj\Debug\Lab_4_(UnitTest).pdb
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug\Lab_4_(UnitTest).dll
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug\Lab_4_(UnitTest).pdb
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug\WebDriver.dll
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug\WebDriver.xml
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\obj\Debug\Lab_4_(UnitTest).csprojResolveAssemblyReference.cache
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\obj\Debug\Lab_4_(UnitTest).csproj.CoreCompileInputs.cache
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\obj\Debug\Lab_4_(UnitTest).dll
+D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\obj\Debug\Lab_4_(UnitTest).pdb
