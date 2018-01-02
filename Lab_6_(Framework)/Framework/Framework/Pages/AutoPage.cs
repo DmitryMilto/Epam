@@ -40,14 +40,10 @@ namespace Framework.Pages
 
         private static DateTime dateTime = DateTime.Now;
         private static DateTime dateTime1 = DateTime.Now;
-        public static IWebDriver Instance()
-        {
-            driver = new ChromeDriver(@"D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug");
-            driver.Manage().Window.Maximize();
-            return driver;
-        }
+
         public static void URL()
         {
+            driver = Driver.DriverInstance.GetInstance();
             driver.Navigate().GoToUrl(url);
         }
         public static void Auto(string cappickup, string cardropoff, int data, string value)

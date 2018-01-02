@@ -21,7 +21,6 @@ namespace Framework.Pages
         private static readonly By TPassword = By.Id("create-account-confirm-password");
         private static readonly By Button = By.Id("create-account-submit-button");
 
-        
         private static readonly By CheckBoxPolicy = By.Id("create-account-expedia-policy");
 
 
@@ -29,19 +28,14 @@ namespace Framework.Pages
         private static readonly By ErrorsEMail = By.ClassName("errorLink");
 
         private static readonly By Complete = By.Id("complete-registration-warning-container");
-        public static IWebDriver Instance()
-        {
-            driver = new ChromeDriver(@"D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug");
-            driver.Manage().Window.Maximize();
-            return driver;
-        }
+
         public static void URL()
         {
+            driver = Driver.DriverInstance.GetInstance();
             driver.Navigate().GoToUrl(url);
         }
         public static void LoginNoPolity(string firsname, string lastname, string email, string password)
         {
-            
             driver.FindElement(FirsName).SendKeys(firsname);
             driver.FindElement(LastName).SendKeys(lastname);
             driver.FindElement(EMail).SendKeys(email);
@@ -51,7 +45,6 @@ namespace Framework.Pages
         }
         public static void LoginEMail(string firsname, string lastname, string email, string password)
         {
-
             driver.FindElement(FirsName).SendKeys(firsname);
             driver.FindElement(LastName).SendKeys(lastname);
             driver.FindElement(EMail).SendKeys(email);
@@ -63,7 +56,6 @@ namespace Framework.Pages
         }
         public static void LoginOk(string firsname, string lastname, string email, string password)
         {
-
             driver.FindElement(FirsName).SendKeys(firsname);
             driver.FindElement(LastName).SendKeys(lastname);
             driver.FindElement(EMail).SendKeys(email);

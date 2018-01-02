@@ -1,8 +1,9 @@
 ﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Chrome;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,12 +15,12 @@ namespace Framework.Driver
         private static IWebDriver driver;
 
         //private static DriverInstance() { }
-
+        private static string pachDrivers = @"DriverBinaries";
         public static IWebDriver GetInstance()
         {
             if (driver == null)
             {
-                driver = new FirefoxDriver(@"D:\Учёба\7 семестр\EPAM\Lab_5_(Framework)\Framework\Framework\DriverBinaries");
+                driver = new ChromeDriver(Path.GetFullPath(pachDrivers));
                 driver.Manage().Window.Maximize();
             }
             return driver;
@@ -30,7 +31,7 @@ namespace Framework.Driver
             driver.Quit();
             driver = null;
 
-            foreach (var process in Process.GetProcessesByName("geckodriver"))
+            foreach (var process in Process.GetProcessesByName("chromedriver"))
             {
                 process.Kill();
             }

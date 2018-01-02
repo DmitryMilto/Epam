@@ -2,6 +2,7 @@
 using OpenQA.Selenium.Chrome;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -47,14 +48,10 @@ namespace Framework.Pages
 
         private static DateTime dateTime = DateTime.Today;
 
-        public static IWebDriver Instance()
-        {
-            driver = new ChromeDriver(@"D:\Учёба\7 семестр\EPAM\Lab_4_(UnitTest)\Lab_4_(UnitTest)\bin\Debug");
-            driver.Manage().Window.Maximize();
-            return driver;
-        }
+
         public static void URL()
         {
+            driver = Driver.DriverInstance.GetInstance();
             driver.Navigate().GoToUrl(url);
         }
         public static void NurHinflugError(string initairport, string finitairipr,int manKol ,int data)
@@ -140,6 +137,16 @@ namespace Framework.Pages
         public static bool Ok
         {
             get { return driver.FindElement(FlightContainer).Enabled; }
+        }
+        public static void Close()
+        {
+            driver.Quit();
+            driver = null;
+
+            foreach (var process in Process.GetProcessesByName("chromedriver"))
+            {
+                process.Kill();
+            }
         }
     }
 }

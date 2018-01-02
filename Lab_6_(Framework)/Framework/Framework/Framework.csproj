@@ -72,7 +72,7 @@
     <Compile Include="Pages\FlugerPage.cs" />
     <Compile Include="Pages\HotelsPage.cs" />
     <Compile Include="Pages\LoginPage.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="AutomationSites.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
